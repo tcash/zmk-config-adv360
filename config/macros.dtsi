@@ -2,7 +2,7 @@ macro_ctrl_enter: macro_ctrl_enter{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_enter";
 #binding-cells = <0>;
-bindings = <&kp ENTER>;
+bindings = <&sk LEFT_CONTROL>, <&kp ENTER>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
